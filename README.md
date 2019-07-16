@@ -12,3 +12,5 @@ or
 https://instagram.com/indian_hacker_ninja
 
 subsribe my youtube channel - https://bit.ly/2um6cLb
+
+Even after using this tool if you are gettting error then do message  me on my insta account
