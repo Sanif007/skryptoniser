@@ -1,8 +1,6 @@
 
 import os
 import sys
-import termcolor
-from termcolor import colored
 
 print("     _                     _              _ ")
 print(" ___| | ___ __ _   _ _ __ | |_ ___  _ __ (_)___  ___ _ __ ")
@@ -10,10 +8,10 @@ print("/ __| |/ / '__| | | | '_ \| __/ _ \| '_ \| / __|/ _ \ '__| ")
 print("\__ \   <| |  | |_| | |_) | || (_) | | | | \__ \  __/ | ")
 print("|___/_|\_\_|   \__, | .__/ \__\___/|_| |_|_|___/\___|_| ")
 print("               |___/|_| ")
-print(colored("####################################", "green"))
-print (colored(" 01. Metasploit ", "red"))
-print (colored(" 02. Make playload by Ghost-Droid ", "red"))
-print(colored("####################################", "green"))
+print("\033[92m####################################\033[0m")
+print ("\033[91m01. Metasploit ", "red"))
+print ("02. Make playload by Ghost-Droid \033[0m")
+print("\033[92m####################################\033[0m")
 opt = input(" >>> ")
 if opt == "01" or opt == "1" :
         q1 = input("Had you installed it earlier??(y/n) : ")
